@@ -13,7 +13,6 @@ a {
 }
 button {
     background-color: transparent;
-    /* auto ->자동? or 0? */
     padding: 0;
     border: none; outline: none;
 }
