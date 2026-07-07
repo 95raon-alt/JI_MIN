@@ -1,0 +1,48 @@
+/* ↓ */
+body {
+    font-family: Arial, "Noto Sans KR", sans-serif;
+    color: #111;
+}
+
+.top-bar {
+    /* ↓ */
+    height: 62px;
+    padding: 0 54px;
+    background: linear-gradient(90deg, #f7f7f7 0%, #9fc5df 62%, #82add0 100%);
+    
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-box {
+    border: 1px solid red;
+    width: 172px;
+    display: flex;
+    align-items: center;
+}
+.logo-box img {
+    width: 100%;
+}
+.menu01 {
+    border: 1px solid red;
+
+}
+.menu01-ul {
+    display: flex;
+    /* → */ gap: 36px;
+    align-items: center;
+    justify-content: center;
+    /* → */ height: 100%;
+}
+.user-box {
+    border: 1px solid red;
+}
+.menu-svg {
+    border: 1px solid orange;
+
+    /* ↓개념 이해 부족 */
+    width: 4px;
+    height: 18px;
+    fill: #111;
+}
